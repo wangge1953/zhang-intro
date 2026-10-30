@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张恬恬 - 个人简介</title>
+    <style>
+        /* 基础重置与页面背景 */
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f6f8;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        /* 卡片容器，模拟图二白底效果 */
+        .card-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 40px 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        
+        /* 头像排版 */
+        .header-img {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .header-img img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 4px; /* 略微圆角显得更现代，如需直角可改为0 */
+        }
+        
+        /* 基础信息排版 */
+        .contact-info {
+            text-align: center;
+            font-size: 16px;
+            margin-bottom: 30px;
+            color: #222;
+        }
+        
+        /* 正文段落排版 */
+        .content p {
+            text-indent: 2em; /* 首行缩进2字符 */
+            margin-bottom: 15px;
+            font-size: 15px;
+            text-align: justify;
+        }
+        
+        /* 研究标题排版 */
+        .research-title {
+            text-align: center;
+            font-weight: bold;
+            font-size: 17px;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            text-indent: 0 !important;
+        }
+        
+        /* 移动端适配 */
+        @media (max-width: 600px) {
+            body { padding: 10px; }
+            .card-container { padding: 25px 15px; }
+            .contact-info { font-size: 15px; }
+            .content p { font-size: 14px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card-container">
+        <!-- 头像区域 -->
+        <div class="header-img">
+            <img src="avatar.jpg" alt="张恬恬">
+        </div>
+        
+        <!-- 基础信息区域 -->
+        <div class="contact-info">
+            张恬恬，中国海洋大学，123123123123，z123@ouc.edu.cn
+        </div>
+        
+        <!-- 正文内容区域 -->
+        <div class="content">
+            <p><strong>个人简介：</strong><br>
+            张恬恬，中国海洋大学教授，兼任山东省高校青创团队负责人，山东省食品科学技术学会理事、山东省营养学会理事、中国营养学会油脂营养产业分会委员、山东营养学会特殊食品专业委员会常务委员，并担任 Journal of Future Foods、Marine Drugs 编委及 Food Science and Human Wellness 青年编委。主要从事海洋食品的营养健康功效研究与功能性食品开发。近年来，主持承担包括国家重点研发计划青年项目、国家自然科学基金、国家重点研发计划子课题等项目10余项，在食品领域国内外高水平杂志发表论文100余篇，副主编“十四五”规划教材1部，主编专著2部，授权国家发明专利19项，并荣获山东省海洋科技创新奖、海南省自然科学奖、中国商业联合会科技进步奖等多项奖励。</p>
+            
+            <div class="research-title">膨腹海马作为海洋食药同源原料的可行性研究</div>
+            
+            <p>海马作为亚洲传统珍贵药材与滋补品，具有补肾壮阳及抗疲劳等显著功效。膨腹海马已实现规模化人工养殖，是极具潜力的海洋食药同源候选资源。本研究首先分析了膨腹海马的基本营养成分，并对膨腹海马中的脂质组成及结构进行了深入解析，明确脂质以甘油三酯、磷脂酰胆碱、磷脂酰乙醇胺为主，DHA在磷脂中特异性富集，同时鉴定出多种甾醇类活性物质。进一步开展功效评价，证实膨腹海马提取物可调控 AMPK‑mTOR、cAMP‑PKA 通路，维持能量代谢稳态、提升睾酮水平，发挥抗疲劳活性。最后通过急性、亚慢性及遗传毒性试验开展安全性评价，在高剂量条件下未发现明显毒性与致突变风险。研究结果为膨腹海马申报新食品原料、开发功能性食品提供科学依据。</p>
+        </div>
+    </div>
+
+</body>
+</html>
